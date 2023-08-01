@@ -26,7 +26,7 @@ The code creates a pie chart to visualize the distribution of rides at Divvy bik
 <br>
 
 ## Step 4: Visualizing Ride Counts at Top Divvy Bike Stations
-Next I generate a bar chart to visualize the number of rides near each top Divvy bike station. The top 200 stations with the highest ride counts are selected and plotted on the bar chart. Stations are grouped into subsets, and each subset is represented with a different color on the chart.
+Next I generate a bar chart to visualize the number of rides near each top Divvy bike station. The top 200 stations with the highest ride counts are selected and plotted on the bar chart. 
 <br>
 <img src="NearbyDivvyBikes.png" width="600" height="600">
 <br>
