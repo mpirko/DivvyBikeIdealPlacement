@@ -16,13 +16,13 @@ The second part of the code involves binning the data based on the nearest stati
 
 We can then visualize the top 200 most used Divvy stations on the following Folium map. You may interact with the map by running the HTML on the [divvy_map.html file](https://drive.google.com/drive/u/2/folders/1w776iEfUUf3QOh8_fNpGKimubyaOjSRR) in my [Google Drive folder](https://drive.google.com/drive/u/2/folders/1w776iEfUUf3QOh8_fNpGKimubyaOjSRR) but here is a snapshot.
 <br>
-<img src="divvy_map.png" width="400" height="200">
+<img src="divvy_map.png" width="400" height="400">
 <br>
 
 ## Step 3: Analyzing Ride Distribution at Divvy Bike Stations
 The code creates a pie chart to visualize the distribution of rides at Divvy bike stations. It calculates the percentage of rides that only started at a station, only ended at a station, both started and ended at a station, and neither started nor ended at a station. Further analysis will focus on the 6.8% of rides that neither started nor ended at a Divvy Bike station but were rather found on a random street and left at another random location.
 <br>
-<img src="piechart.png" width="600" height="600">
+<img src="piechart.png" width="400" height="400">
 <br>
 
 ## Step 4: Visualizing Ride Counts at Top Divvy Bike Stations
@@ -33,7 +33,7 @@ Next I generate a bar chart to visualize the number of rides near each top Divvy
 
 You can visualize these stations on the map below. You may interact with the map [here:](https://drive.google.com/drive/u/2/folders/1w776iEfUUf3QOh8_fNpGKimubyaOjSRR) but here is a snapshot.
 <br>
-<img src="divvy_map.png" width="600" height="600">
+<img src="divvy_map.png" width="400" height="400">
 <br>
 
 Presented here are the top 5 stations. To optimize user experience, I would recommend expanding the bike slots at these stations, as insufficient docking space might be leading to users leaving bikes unattended. Additionally, these areas exhibit a promising potential for increased demand, considering that Divvy bikes themselves serve as effective advertising tools with their prominently displayed logo. As a result, individuals seeking swift and convenient transportation solutions may turn to Divvy Bikes.
@@ -44,7 +44,7 @@ Presented here are the top 5 stations. To optimize user experience, I would reco
 ## Step 5: Identifying Farthest Divvy Bike Ride Locations
 I then identify the farthest Divvy bike ride locations and their nearest station distances. This heatmap visualizes the density of farthest ride locations and adds markers for the top 200 stations with the highest counts, with the red-orange circles representing locations with the farthest away bike rides. You may interact with the map [here:](https://drive.google.com/drive/u/2/folders/1w776iEfUUf3QOh8_fNpGKimubyaOjSRR) 
 <br>
-<img src="binned_farthest_divvy_map.png" width="600" height="600">
+<img src="binned_farthest_divvy_map.png" width="400" height="400">
 <br>
 
 Here are 77 prominent Divvy bike station locations nearest to faraway bike rides, with each station being the closest option for those respective journeys.
@@ -60,7 +60,7 @@ Here are the top 5 of those stations:
 ## Step 6: Finding Potential Locations for New Stations
 The code uses K-means clustering to identify potential locations for new bike stations based on the farthest ride locations. It clusters the farthest locations into five groups and adds markers for these potential station locations on the heatmap.The visualization is depicted below and you may interact with the map [here:](https://drive.google.com/drive/u/2/folders/1w776iEfUUf3QOh8_fNpGKimubyaOjSRR) 
 <br>
-<img src="potential_stations_divvy_map.png" width="600" height="600">
+<img src="potential_stations_divvy_map.png" width="400" height="400">
 <br>
 
 ### Conclusion:
